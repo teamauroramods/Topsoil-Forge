@@ -1,0 +1,8 @@
+{
+  "parent": "abnormals_core:block/vertical_slab",
+  "textures": {
+    "top": "topsoil:block/rough_dirt_bricks",
+    "bottom": "topsoil:block/rough_dirt_bricks",
+    "side": "topsoil:block/rough_dirt_bricks"
+  }
+}

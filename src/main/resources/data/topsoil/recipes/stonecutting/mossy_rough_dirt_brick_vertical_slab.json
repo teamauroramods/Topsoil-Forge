@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:mossy_rough_dirt_bricks"
+  },
+  "result": "topsoil:mossy_rough_dirt_brick_vertical_slab",
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "vertical_slabs"
+    }
+  ],
+  "count": 2
+}

@@ -22,5 +22,19 @@
   "block.topsoil.coarse_dirt_tile_vertical_slab": "Coarse Dirt Tile Vertical Slab",
 
   "block.topsoil.rough_dirt": "Rough Dirt",
-  "block.topsoil.polished_rough_dirt": "Polished Rough Dirt"
+  "block.topsoil.polished_rough_dirt": "Polished Rough Dirt",
+
+  "block.topsoil.rough_dirt_bricks": "Rough Dirt Bricks",
+  "block.topsoil.rough_dirt_brick_slab": "Rough Dirt Brick Slab",
+  "block.topsoil.rough_dirt_brick_stairs": "Rough Dirt Brick Stairs",
+  "block.topsoil.rough_dirt_brick_wall": "Rough Dirt Brick Wall",
+  "block.topsoil.rough_dirt_brick_vertical_slab": "Rough Dirt Brick Vertical Slab",
+
+  "block.topsoil.mossy_rough_dirt_bricks": "Mossy Rough Dirt Bricks",
+  "block.topsoil.mossy_rough_dirt_brick_slab": "Mossy Rough Dirt Brick Slab",
+  "block.topsoil.mossy_rough_dirt_brick_stairs": "Mossy Rough Dirt Brick Stairs",
+  "block.topsoil.mossy_rough_dirt_brick_wall": "Mossy Rough Dirt Brick Wall",
+  "block.topsoil.mossy_rough_dirt_brick_vertical_slab": "Mossy Rough Dirt Brick Vertical Slab",
+
+  "block.topsoil.chiseled_rough_dirt_bricks": "Chiseled Rough Dirt Bricks"
 }

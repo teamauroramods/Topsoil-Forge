@@ -42,6 +42,19 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> ROUGH_DIRT = HELPER.createBlock("rough_dirt", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> POLISHED_ROUGH_DIRT = HELPER.createBlock("polished_rough_dirt", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> ROUGH_DIRT_BRICKS = HELPER.createBlock("rough_dirt_bricks", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ROUGH_DIRT_BRICK_SLAB = HELPER.createBlock("rough_dirt_brick_slab", ()->new SlabBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ROUGH_DIRT_BRICK_STAIRS = HELPER.createBlock("rough_dirt_brick_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ROUGH_DIRT_BRICK_WALL = HELPER.createBlock("rough_dirt_brick_wall", ()->new WallBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ROUGH_DIRT_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "rough_dirt_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> MOSSY_ROUGH_DIRT_BRICKS = HELPER.createBlock("mossy_rough_dirt_bricks", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ROUGH_DIRT_BRICK_SLAB = HELPER.createBlock("mossy_rough_dirt_brick_slab", ()->new SlabBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ROUGH_DIRT_BRICK_STAIRS = HELPER.createBlock("mossy_rough_dirt_brick_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ROUGH_DIRT_BRICK_WALL = HELPER.createBlock("mossy_rough_dirt_brick_wall", ()->new WallBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_ROUGH_DIRT_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "mossy_rough_dirt_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> CHISELED_ROUGH_DIRT_BRICKS = HELPER.createBlock("chiseled_rough_dirt_bricks", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
 
     public static final class Properties {
