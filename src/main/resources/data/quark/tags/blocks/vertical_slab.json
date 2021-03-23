@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "topsoil:coarse_dirt_brick_vertical_slab",
-    "topsoil:mossy_coarse_dirt_brick_vertical_slab"
+    "topsoil:mossy_coarse_dirt_brick_vertical_slab",
+    "topsoil:coarse_dirt_tile_vertical_slab"
   ]
 }

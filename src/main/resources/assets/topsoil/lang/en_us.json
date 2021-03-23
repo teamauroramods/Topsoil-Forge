@@ -13,5 +13,11 @@
   "block.topsoil.mossy_coarse_dirt_brick_wall": "Mossy Coarse Dirt Brick Wall",
   "block.topsoil.mossy_coarse_dirt_brick_vertical_slab": "Mossy Coarse Dirt Brick Vertical Slab",
 
-  "block.topsoil.chiseled_coarse_dirt_bricks": "Chiseled Coarse Dirt Bricks"
+  "block.topsoil.chiseled_coarse_dirt_bricks": "Chiseled Coarse Dirt Bricks",
+
+  "block.topsoil.coarse_dirt_tiles": "Coarse Dirt Tiles",
+  "block.topsoil.coarse_dirt_tile_slab": "Coarse Dirt Tile Slab",
+  "block.topsoil.coarse_dirt_tile_stairs": "Coarse Dirt Tile Stairs",
+  "block.topsoil.coarse_dirt_tile_wall": "Coarse Dirt Tile Wall",
+  "block.topsoil.coarse_dirt_tile_vertical_slab": "Coarse Dirt Tile Vertical Slab"
 }

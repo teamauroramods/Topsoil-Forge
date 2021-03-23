@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:coarse_dirt_tiles"
+  },
+  "result": "topsoil:coarse_dirt_tile_stairs",
+  "count": 1
+}

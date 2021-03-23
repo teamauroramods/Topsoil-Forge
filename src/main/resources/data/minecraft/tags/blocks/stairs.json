@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "topsoil:coarse_dirt_brick_stairs",
-    "topsoil:mossy_coarse_dirt_brick_stairs"
+    "topsoil:mossy_coarse_dirt_brick_stairs",
+    "topsoil:coarse_dirt_tile_stairs"
   ]
 }
