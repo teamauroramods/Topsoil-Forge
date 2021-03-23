@@ -53,5 +53,12 @@
   "block.topsoil.mossy_regolith_brick_wall": "Mossy Regolith Brick Wall",
   "block.topsoil.mossy_regolith_brick_vertical_slab": "Mossy Regolith Brick Vertical Slab",
 
-  "block.topsoil.chiseled_regolith_bricks": "Chiseled Regolith Bricks"
+  "block.topsoil.chiseled_regolith_bricks": "Chiseled Regolith Bricks",
+
+  "block.topsoil.cob": "Cob",
+  "block.topsoil.polished_cob": "Polished Cob",
+
+
+  "block.topsoil.iron_deposit": "Iron Deposit",
+  "block.topsoil.peat_deposit": "Peat Deposit"
 }

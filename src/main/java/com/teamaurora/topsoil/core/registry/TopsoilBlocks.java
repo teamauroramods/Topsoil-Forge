@@ -74,6 +74,12 @@ public class TopsoilBlocks {
 
     public static final RegistryObject<Block> CHISELED_REGOLITH_BRICKS = HELPER.createBlock("chiseled_regolith_bricks", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> COB = HELPER.createBlock("cob", ()->new Block(Properties.COB), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> POLISHED_COB = HELPER.createBlock("polished_cob", ()->new Block(Properties.COB), ItemGroup.BUILDING_BLOCKS);
+
+
+    public static final RegistryObject<Block> IRON_DEPOSIT = HELPER.createBlock("iron_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PEAT_DEPOSIT = HELPER.createBlock("peat_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
     public static final class Properties {
         // todo: make these custom
