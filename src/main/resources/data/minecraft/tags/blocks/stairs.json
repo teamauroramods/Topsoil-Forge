@@ -3,6 +3,10 @@
   "values": [
     "topsoil:coarse_dirt_brick_stairs",
     "topsoil:mossy_coarse_dirt_brick_stairs",
-    "topsoil:coarse_dirt_tile_stairs"
+    "topsoil:coarse_dirt_tile_stairs",
+    "topsoil:rough_dirt_brick_stairs",
+    "topsoil:mossy_rough_dirt_brick_stairs",
+    "topsoil:regolith_brick_stairs",
+    "topsoil:mossy_regolith_brick_stairs"
   ]
 }

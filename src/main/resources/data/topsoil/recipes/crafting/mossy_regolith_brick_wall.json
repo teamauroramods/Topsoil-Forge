@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "topsoil:mossy_regolith_bricks"
+    }
+  },
+  "result": {
+    "item": "topsoil:mossy_regolith_brick_wall",
+    "count": 6
+  }
+}

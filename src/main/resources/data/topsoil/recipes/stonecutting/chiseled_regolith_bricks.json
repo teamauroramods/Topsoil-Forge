@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:regolith_bricks"
+  },
+  "result": "topsoil:chiseled_regolith_bricks",
+  "count": 1
+}

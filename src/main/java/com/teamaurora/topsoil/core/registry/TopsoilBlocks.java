@@ -56,6 +56,24 @@ public class TopsoilBlocks {
 
     public static final RegistryObject<Block> CHISELED_ROUGH_DIRT_BRICKS = HELPER.createBlock("chiseled_rough_dirt_bricks", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
+    // Regolith
+    public static final RegistryObject<Block> REGOLITH = HELPER.createBlock("regolith", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> POLISHED_REGOLITH = HELPER.createBlock("polished_regolith", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> REGOLITH_BRICKS = HELPER.createBlock("regolith_bricks", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> REGOLITH_BRICK_SLAB = HELPER.createBlock("regolith_brick_slab", ()->new SlabBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> REGOLITH_BRICK_STAIRS = HELPER.createBlock("regolith_brick_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> REGOLITH_BRICK_WALL = HELPER.createBlock("regolith_brick_wall", ()->new WallBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> REGOLITH_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "regolith_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> MOSSY_REGOLITH_BRICKS = HELPER.createBlock("mossy_regolith_bricks", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_REGOLITH_BRICK_SLAB = HELPER.createBlock("mossy_regolith_brick_slab", ()->new SlabBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_REGOLITH_BRICK_STAIRS = HELPER.createBlock("mossy_regolith_brick_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_REGOLITH_BRICK_WALL = HELPER.createBlock("mossy_regolith_brick_wall", ()->new WallBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MOSSY_REGOLITH_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "mossy_regolith_brick_vertical_slab", ()->new VerticalSlabBlock(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> CHISELED_REGOLITH_BRICKS = HELPER.createBlock("chiseled_regolith_bricks", ()->new Block(Properties.REGOLITH), ItemGroup.BUILDING_BLOCKS);
+
 
     public static final class Properties {
         // todo: make these custom

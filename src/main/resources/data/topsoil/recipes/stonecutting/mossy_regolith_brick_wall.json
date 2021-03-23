@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:mossy_regolith_bricks"
+  },
+  "result": "topsoil:mossy_regolith_brick_wall",
+  "count": 1
+}

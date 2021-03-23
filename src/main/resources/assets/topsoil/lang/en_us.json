@@ -36,5 +36,22 @@
   "block.topsoil.mossy_rough_dirt_brick_wall": "Mossy Rough Dirt Brick Wall",
   "block.topsoil.mossy_rough_dirt_brick_vertical_slab": "Mossy Rough Dirt Brick Vertical Slab",
 
-  "block.topsoil.chiseled_rough_dirt_bricks": "Chiseled Rough Dirt Bricks"
+  "block.topsoil.chiseled_rough_dirt_bricks": "Chiseled Rough Dirt Bricks",
+
+  "block.topsoil.regolith": "Regolith",
+  "block.topsoil.polished_regolith": "Polished Regolith",
+
+  "block.topsoil.regolith_bricks": "Regolith Bricks",
+  "block.topsoil.regolith_brick_slab": "Regolith Brick Slab",
+  "block.topsoil.regolith_brick_stairs": "Regolith Brick Stairs",
+  "block.topsoil.regolith_brick_wall": "Regolith Brick Wall",
+  "block.topsoil.regolith_brick_vertical_slab": "Regolith Brick Vertical Slab",
+
+  "block.topsoil.mossy_regolith_bricks": "Mossy Regolith Bricks",
+  "block.topsoil.mossy_regolith_brick_slab": "Mossy Regolith Brick Slab",
+  "block.topsoil.mossy_regolith_brick_stairs": "Mossy Regolith Brick Stairs",
+  "block.topsoil.mossy_regolith_brick_wall": "Mossy Regolith Brick Wall",
+  "block.topsoil.mossy_regolith_brick_vertical_slab": "Mossy Regolith Brick Vertical Slab",
+
+  "block.topsoil.chiseled_regolith_bricks": "Chiseled Regolith Bricks"
 }
