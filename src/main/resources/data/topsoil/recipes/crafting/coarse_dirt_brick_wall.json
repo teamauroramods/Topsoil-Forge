@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "topsoil:coarse_dirt_bricks"
+    }
+  },
+  "result": {
+    "item": "topsoil:coarse_dirt_brick_wall",
+    "count": 6
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Dirt Caves",
+
+  "block.topsoil.coarse_dirt_bricks": "Coarse Dirt Bricks",
+  "block.topsoil.coarse_dirt_brick_slab": "Coarse Dirt Brick Slab",
+  "block.topsoil.coarse_dirt_brick_stairs": "Coarse Dirt Brick Stairs",
+  "block.topsoil.coarse_dirt_brick_wall": "Coarse Dirt Brick Wall",
+  "block.topsoil.coarse_dirt_brick_vertical_slab": "Coarse Dirt Brick Vertical Slab"
+}

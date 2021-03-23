@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "top": "topsoil:block/coarse_dirt_bricks",
+    "bottom": "topsoil:block/coarse_dirt_bricks",
+    "side": "topsoil:block/coarse_dirt_bricks"
+  }
+}
