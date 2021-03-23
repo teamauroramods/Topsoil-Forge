@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:coarse_dirt_bricks"
+  },
+  "result": "topsoil:chiseled_coarse_dirt_bricks",
+  "count": 1
+}

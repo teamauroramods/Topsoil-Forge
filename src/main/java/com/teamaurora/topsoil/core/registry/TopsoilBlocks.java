@@ -29,7 +29,7 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> MOSSY_COARSE_DIRT_BRICK_WALL = HELPER.createBlock("mossy_coarse_dirt_brick_wall", ()->new WallBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> MOSSY_COARSE_DIRT_BRICK_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "mossy_coarse_dirt_brick_vertical_slab", ()->new VerticalSlabBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
 
-
+    public static final RegistryObject<Block> CHISELED_COARSE_DIRT_BRICKS = HELPER.createBlock("chiseled_coarse_dirt_bricks", ()->new Block(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
 
 
     public static final class Properties {
