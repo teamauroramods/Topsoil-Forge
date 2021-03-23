@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "topsoil:coarse_dirt_brick_slab"
+    "topsoil:coarse_dirt_brick_slab",
+    "topsoil:mossy_coarse_dirt_brick_slab"
   ]
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "topsoil:mossy_coarse_dirt_bricks"
+  },
+  "result": "topsoil:mossy_coarse_dirt_brick_wall",
+  "count": 1
+}
