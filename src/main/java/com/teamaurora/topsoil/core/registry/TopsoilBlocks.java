@@ -17,6 +17,7 @@ public class TopsoilBlocks {
      |    DIRT CAVES    |
      *------------------*/
 
+    // Coarse Dirt Blocks
     public static final RegistryObject<Block> COARSE_DIRT_BRICKS = HELPER.createBlock("coarse_dirt_bricks", ()->new Block(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> COARSE_DIRT_BRICK_SLAB = HELPER.createBlock("coarse_dirt_brick_slab", ()->new SlabBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> COARSE_DIRT_BRICK_STAIRS = HELPER.createBlock("coarse_dirt_brick_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
@@ -36,6 +37,11 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> COARSE_DIRT_TILE_STAIRS = HELPER.createBlock("coarse_dirt_tile_stairs", ()->new AbnormalsStairsBlock(COARSE_DIRT_BRICKS.get().getDefaultState(), AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> COARSE_DIRT_TILE_WALL = HELPER.createBlock("coarse_dirt_tile_wall", ()->new WallBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> COARSE_DIRT_TILE_VERTICAL_SLAB = HELPER.createCompatBlock("quark", "coarse_dirt_tile_vertical_slab", ()->new VerticalSlabBlock(AbstractBlock.Properties.from(Blocks.COARSE_DIRT)), ItemGroup.BUILDING_BLOCKS);
+
+    // Rough Dirt
+    public static final RegistryObject<Block> ROUGH_DIRT = HELPER.createBlock("rough_dirt", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> POLISHED_ROUGH_DIRT = HELPER.createBlock("polished_rough_dirt", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+
 
 
     public static final class Properties {
