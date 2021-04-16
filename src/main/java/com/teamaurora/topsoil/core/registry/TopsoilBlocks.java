@@ -3,8 +3,10 @@ package com.teamaurora.topsoil.core.registry;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
+import com.teamaurora.topsoil.common.block.ParsnipRootBlock;
 import com.teamaurora.topsoil.core.Topsoil;
 import net.minecraft.block.*;
+import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
@@ -81,10 +83,15 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> IRON_DEPOSIT = HELPER.createBlock("iron_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> PEAT_DEPOSIT = HELPER.createBlock("peat_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
+    // Parsnips
+    public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.ROOTS));
+
     public static final class Properties {
         // todo: make these custom
         public static final AbstractBlock.Properties ROUGH_DIRT = AbstractBlock.Properties.from(Blocks.DIRT);
         public static final AbstractBlock.Properties REGOLITH = AbstractBlock.Properties.from(Blocks.COBBLESTONE);
         public static final AbstractBlock.Properties COB = AbstractBlock.Properties.from(Blocks.STONE);
+
+        public static final AbstractBlock.Properties ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement().tickRandomly();
     }
 }

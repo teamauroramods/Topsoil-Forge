@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "half=lower,age=0": {
+      "model": "topsoil:block/parsnip_roots_bottom_0"
+    },
+    "half=upper,age=0": {
+      "model": "topsoil:block/parsnip_roots_top_0"
+    },
+    "half=lower,age=1": {
+      "model": "topsoil:block/parsnip_roots_bottom_1"
+    },
+    "half=upper,age=1": {
+      "model": "topsoil:block/parsnip_roots_top_1"
+    },
+    "half=lower,age=2": {
+      "model": "topsoil:block/parsnip_roots_bottom_2"
+    },
+    "half=upper,age=2": {
+      "model": "topsoil:block/parsnip_roots_top_2"
+    }
+  }
+}

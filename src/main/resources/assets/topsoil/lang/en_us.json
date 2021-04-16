@@ -60,5 +60,10 @@
 
 
   "block.topsoil.iron_deposit": "Iron Deposit",
-  "block.topsoil.peat_deposit": "Peat Deposit"
+  "block.topsoil.peat_deposit": "Peat Deposit",
+
+
+  "block.topsoil.parsnip_roots": "Parsnip Roots",
+  "item.topsoil.parsnip": "Parsnip",
+  "item.topsoil.hearty_soup": "Hearty Soup"
 }
