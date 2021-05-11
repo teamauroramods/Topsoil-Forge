@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "topsoil:block/cantaloupe_stage_0"
+    },
+    "age=1": {
+      "model": "topsoil:block/cantaloupe_stage_1"
+    }
+  }
+}

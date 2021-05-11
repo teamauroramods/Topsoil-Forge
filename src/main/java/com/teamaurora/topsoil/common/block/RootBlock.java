@@ -10,14 +10,17 @@ import net.minecraft.world.IWorld;
 import net.minecraft.world.IWorldReader;
 
 public class RootBlock extends Block {
-    public RootBlock(Properties properties) {
+    private final boolean stackable;
+
+    public RootBlock(boolean stackable, Properties properties) {
         super(properties);
+        this.stackable = stackable;
     }
 
     @Override
     public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
         BlockState stateUp = worldIn.getBlockState(pos.up());
-        return stateUp.getBlock() == this || stateUp.isIn(TopsoilTags.Blocks.DIRT); // TODO: replace with Forge dirt tag
+        return (stateUp.getBlock() == this && stackable) || stateUp.isIn(TopsoilTags.Blocks.DIRT); // TODO: replace with Forge dirt tag
     }
 
     @Override

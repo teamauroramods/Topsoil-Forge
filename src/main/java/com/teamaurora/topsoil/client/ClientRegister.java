@@ -21,5 +21,6 @@ public class ClientRegister {
     public static void setupRenderLayer() {
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.PARSNIP_ROOTS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.CANTALOUPE_VINES.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.CANTALOUPE_STEM.get(), RenderType.getCutout());
     }
 }

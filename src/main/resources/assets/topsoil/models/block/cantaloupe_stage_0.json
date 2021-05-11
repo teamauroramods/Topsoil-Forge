@@ -1,0 +1,21 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "topsoil:block/cantaloupe_stage_0",
+    "end": "topsoil:block/cantaloupe_stage_0_top",
+    "side": "topsoil:block/cantaloupe_stage_0"
+  },
+  "elements": [
+    {   "from": [ 3, 6, 3 ],
+      "to": [ 13, 16, 13 ],
+      "faces": {
+        "down":  { "texture": "#end", "cullface": "down" },
+        "up":    { "texture": "#end", "cullface": "up" },
+        "north": { "texture": "#side", "cullface": "north" },
+        "south": { "texture": "#side", "cullface": "south" },
+        "west":  { "texture": "#side", "cullface": "west" },
+        "east":  { "texture": "#side", "cullface": "east" }
+      }
+    }
+  ]
+}

@@ -36,7 +36,7 @@ public class ParsnipRootBlock extends RootBlock implements IGrowable {
     protected static final VoxelShape SHAPE = Block.makeCuboidShape(3.0D, 0.0D, 3.0D, 13.0D, 16.0D, 13.0D);
 
     public ParsnipRootBlock(Properties properties) {
-        super(properties);
+        super(true, properties);
         this.setDefaultState(this.stateContainer.getBaseState().with(HALF, DoubleBlockHalf.LOWER).with(AGE, 0));
     }
 

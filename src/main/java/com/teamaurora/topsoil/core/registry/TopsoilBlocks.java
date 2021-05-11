@@ -3,6 +3,8 @@ package com.teamaurora.topsoil.core.registry;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
+import com.teamaurora.topsoil.common.block.CantaloupeBlock;
+import com.teamaurora.topsoil.common.block.CantaloupeStemBlock;
 import com.teamaurora.topsoil.common.block.ParsnipRootBlock;
 import com.teamaurora.topsoil.common.block.RootBlock;
 import com.teamaurora.topsoil.core.Topsoil;
@@ -88,7 +90,9 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.PARSNIP_ROOTS));
 
     // Cantaloupes
-    public static final RegistryObject<Block> CANTALOUPE_VINES = HELPER.createBlock("cantaloupe_vines", ()->new RootBlock(Properties.ROOTS), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> CANTALOUPE_VINES = HELPER.createBlock("cantaloupe_vines", ()->new RootBlock(false, Properties.ROOTS), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> CANTALOUPE_STEM = HELPER.createBlock("cantaloupe_stem", ()->new CantaloupeStemBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN_STEM)), ItemGroup.MISC);
+    public static final RegistryObject<Block> CANTALOUPE = HELPER.createBlock("cantaloupe", ()->new CantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
 
     public static final class Properties {
         // todo: make these custom
