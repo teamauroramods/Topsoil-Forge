@@ -80,8 +80,8 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> POLISHED_COB = HELPER.createBlock("polished_cob", ()->new Block(Properties.COB), ItemGroup.BUILDING_BLOCKS);
 
 
-    public static final RegistryObject<Block> IRON_DEPOSIT = HELPER.createBlock("iron_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
-    public static final RegistryObject<Block> PEAT_DEPOSIT = HELPER.createBlock("peat_deposit", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> IRON_CLUSTER = HELPER.createBlock("iron_cluster", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PEAT_CLUSTER = HELPER.createBlock("peat_cluster", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
     // Parsnips
     public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.ROOTS));
