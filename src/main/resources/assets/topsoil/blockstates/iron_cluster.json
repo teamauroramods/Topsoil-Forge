@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "topsoil:block/iron_deposit"
+      "model": "topsoil:block/iron_cluster"
     }
   }
 }

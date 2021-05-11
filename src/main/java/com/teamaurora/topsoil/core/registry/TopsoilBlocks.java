@@ -4,6 +4,7 @@ import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
 import com.teamaurora.topsoil.common.block.ParsnipRootBlock;
+import com.teamaurora.topsoil.common.block.RootBlock;
 import com.teamaurora.topsoil.core.Topsoil;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -84,7 +85,10 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> PEAT_CLUSTER = HELPER.createBlock("peat_cluster", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
     // Parsnips
-    public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.ROOTS));
+    public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.PARSNIP_ROOTS));
+
+    // Cantaloupes
+    public static final RegistryObject<Block> CANTALOUPE_VINES = HELPER.createBlock("cantaloupe_vines", ()->new RootBlock(Properties.ROOTS), ItemGroup.DECORATIONS);
 
     public static final class Properties {
         // todo: make these custom
@@ -92,6 +96,7 @@ public class TopsoilBlocks {
         public static final AbstractBlock.Properties REGOLITH = AbstractBlock.Properties.from(Blocks.COBBLESTONE);
         public static final AbstractBlock.Properties COB = AbstractBlock.Properties.from(Blocks.STONE);
 
-        public static final AbstractBlock.Properties ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement().tickRandomly();
+        public static final AbstractBlock.Properties PARSNIP_ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement().tickRandomly();
+        public static final AbstractBlock.Properties ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement();
     }
 }

@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "topsoil:block/peat_deposit"
+      "model": "topsoil:block/peat_cluster"
     }
   }
 }

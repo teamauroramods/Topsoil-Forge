@@ -30,7 +30,7 @@ import net.minecraft.world.server.ServerWorld;
 import java.util.Random;
 
 @SuppressWarnings("deprecation")
-public class ParsnipRootBlock extends Block implements IGrowable {
+public class ParsnipRootBlock extends RootBlock implements IGrowable {
     public static final EnumProperty<DoubleBlockHalf> HALF = BlockStateProperties.DOUBLE_BLOCK_HALF;
     public static final IntegerProperty AGE  = BlockStateProperties.AGE_0_2;
     protected static final VoxelShape SHAPE = Block.makeCuboidShape(3.0D, 0.0D, 3.0D, 13.0D, 16.0D, 13.0D);
@@ -53,21 +53,6 @@ public class ParsnipRootBlock extends Block implements IGrowable {
     @Override
     public void grow(ServerWorld worldIn, Random rand, BlockPos pos, BlockState state) {
         worldIn.setBlockState(pos, state.with(AGE, state.get(AGE) + 1), 2);
-    }
-
-    @Override
-    public boolean isValidPosition(BlockState state, IWorldReader worldIn, BlockPos pos) {
-        BlockState stateUp = worldIn.getBlockState(pos.up());
-        return stateUp.getBlock() == this || stateUp.isIn(TopsoilTags.Blocks.DIRT);
-    }
-
-    @Override
-    public BlockState updatePostPlacement(BlockState stateIn, Direction facing, BlockState facingState, IWorld worldIn, BlockPos currentPos, BlockPos facingPos) {
-        if (!stateIn.isValidPosition(worldIn, currentPos)) {
-            return Blocks.AIR.getDefaultState();
-        } else {
-            return super.updatePostPlacement(stateIn, facing, facingState, worldIn, currentPos, facingPos);
-        }
     }
 
     @Override
