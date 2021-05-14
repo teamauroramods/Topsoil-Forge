@@ -37,7 +37,7 @@ public class CantaloupeStemBlock extends RootBlock implements IGrowable {
 
     @Override
     public void grow(ServerWorld worldIn, Random rand, BlockPos pos, BlockState state) {
-        worldIn.setBlockState(pos.down(), TopsoilBlocks.CANTALOUPE.get().getDefaultState().with(CantaloupeBlock.AGE, 0), 2);
+        worldIn.setBlockState(pos.down(), TopsoilBlocks.SMALL_CANTALOUPE.get().getDefaultState(), 2);
     }
 
     @Override
@@ -48,7 +48,7 @@ public class CantaloupeStemBlock extends RootBlock implements IGrowable {
     @Override
     public void randomTick(BlockState state, ServerWorld worldIn, BlockPos pos, Random random) {
         if (worldIn.getBlockState(pos.down()).isAir() && net.minecraftforge.common.ForgeHooks.onCropsGrowPre(worldIn, pos, state, random.nextInt(10) == 0)) {
-            worldIn.setBlockState(pos.down(), TopsoilBlocks.CANTALOUPE.get().getDefaultState().with(CantaloupeBlock.AGE, 0), 2);
+            worldIn.setBlockState(pos.down(), TopsoilBlocks.SMALL_CANTALOUPE.get().getDefaultState(), 2);
             net.minecraftforge.common.ForgeHooks.onCropsGrowPost(worldIn, pos, state);
         }
     }
