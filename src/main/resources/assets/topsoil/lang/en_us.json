@@ -85,5 +85,9 @@
   "block.topsoil.cantaloupe_stem": "Cantaloupe Stem",
   "block.topsoil.small_cantaloupe": "Small Cantaloupe",
   "block.topsoil.cantaloupe": "Cantaloupe",
-  "item.topsoil.cantaloupe_slice": "Cantaloupe Slice"
+  "item.topsoil.cantaloupe_slice": "Cantaloupe Slice",
+
+  "block.topsoil.red_mallow": "Red Mallow",
+  "block.topsoil.white_mallow": "White Mallow",
+  "block.topsoil.mallow_bush": "Mallow Bush"
 }

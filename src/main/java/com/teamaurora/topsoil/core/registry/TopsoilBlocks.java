@@ -1,5 +1,6 @@
 package com.teamaurora.topsoil.core.registry;
 
+import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsFlowerBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
@@ -11,6 +12,7 @@ import com.teamaurora.topsoil.core.Topsoil;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
@@ -113,6 +115,12 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> CANTALOUPE_STEM = HELPER.createBlock("cantaloupe_stem", ()->new CantaloupeStemBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN_STEM)), ItemGroup.MISC);
     public static final RegistryObject<Block> SMALL_CANTALOUPE = HELPER.createBlock("small_cantaloupe", ()->new CantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> CANTALOUPE = HELPER.createBlock("cantaloupe", ()->new Block(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
+
+    // Mallows
+    // TODO: custom stew effect
+    public static final RegistryObject<Block> RED_MALLOW = HELPER.createBlock("red_mallow", ()->new AbnormalsFlowerBlock(() -> Effects.HASTE, 0, AbstractBlock.Properties.from(Blocks.POPPY)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> WHITE_MALLOW = HELPER.createBlock("white_mallow", ()->new AbnormalsFlowerBlock(() -> Effects.HASTE, 0, AbstractBlock.Properties.from(Blocks.POPPY)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> MALLOW_BUSH = HELPER.createBlock("mallow_bush", ()->new AbnormalsFlowerBlock(() -> Effects.HASTE, 0, AbstractBlock.Properties.from(Blocks.POPPY)), ItemGroup.DECORATIONS);
 
     public static final class Properties {
         // todo: make these custom

@@ -22,5 +22,9 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.PARSNIP_ROOTS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.CANTALOUPE_VINES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.CANTALOUPE_STEM.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.RED_MALLOW.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.WHITE_MALLOW.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.MALLOW_BUSH.get(), RenderType.getCutout());
     }
 }
