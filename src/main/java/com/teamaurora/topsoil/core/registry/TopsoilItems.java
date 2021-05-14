@@ -16,6 +16,9 @@ public class TopsoilItems {
 
     public static final RegistryObject<Item> PARSNIP_STRAW = HELPER.createItem("parsnip_straw", ()->new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
+    public static final RegistryObject<Item> PEAT = HELPER.createItem("peat", ()->new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+    public static final RegistryObject<Item> PEAT_BRICK = HELPER.createItem("peat_brick", ()->new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
+
     public static class Foods {
         public static final Food PARSNIP = (new Food.Builder()).hunger(3).saturation(0.6F).build(); // temporarily a carrot clone
         public static final Food CANTALOUPE_STEM = (new Food.Builder()).hunger(2).saturation(0.3F).build(); // temporarily a melon clone

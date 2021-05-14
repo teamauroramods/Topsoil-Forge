@@ -96,6 +96,14 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> IRON_CLUSTER = HELPER.createBlock("iron_cluster", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> PEAT_CLUSTER = HELPER.createBlock("peat_cluster", ()->new Block(Properties.ROUGH_DIRT), ItemGroup.BUILDING_BLOCKS);
 
+    // Peat
+    public static final RegistryObject<Block> PEAT_BLOCK = HELPER.createBlock("peat_block", ()->new Block(Properties.PEAT), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> PEAT_BRICKS = HELPER.createBlock("peat_bricks", ()->new Block(Properties.PEAT), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CHISELED_PEAT_BRICKS = HELPER.createBlock("chiseled_peat_bricks", ()->new Block(Properties.PEAT), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PEAT_BRICKS = HELPER.createBlock("large_peat_bricks", ()->new Block(Properties.PEAT), ItemGroup.BUILDING_BLOCKS);
+
     // Parsnips
     public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.PARSNIP_ROOTS));
     public static final RegistryObject<Block> PARSNIP_STRAW_BALE = HELPER.createBlock("parsnip_straw_bale", ()->new HayBlock(AbstractBlock.Properties.from(Blocks.HAY_BLOCK)), ItemGroup.BUILDING_BLOCKS);
@@ -111,6 +119,7 @@ public class TopsoilBlocks {
         public static final AbstractBlock.Properties ROUGH_DIRT = AbstractBlock.Properties.from(Blocks.DIRT);
         public static final AbstractBlock.Properties REGOLITH = AbstractBlock.Properties.from(Blocks.COBBLESTONE);
         public static final AbstractBlock.Properties COB = AbstractBlock.Properties.from(Blocks.STONE);
+        public static final AbstractBlock.Properties PEAT = AbstractBlock.Properties.from(Blocks.DIRT);
 
         public static final AbstractBlock.Properties PARSNIP_ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement().tickRandomly();
         public static final AbstractBlock.Properties ROOTS = AbstractBlock.Properties.create(Material.PLANTS).zeroHardnessAndResistance().sound(SoundType.PLANT).notSolid().doesNotBlockMovement();

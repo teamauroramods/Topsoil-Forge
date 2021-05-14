@@ -63,6 +63,13 @@
   "block.topsoil.cut_cob": "Cut Cob",
   "block.topsoil.chiseled_cob_tiles": "Chiseled Cob Tiles",
 
+  "block.topsoil.peat_block": "Peat Block",
+  "block.topsoil.peat_bricks": "Peat Bricks",
+  "block.topsoil.chiseled_peat_bricks": "Chiseled Peat Bricks",
+  "block.topsoil.large_peat_bricks": "Large Peat Bricks",
+  "item.topsoil.peat": "Peat",
+  "item.topsoil.peat_brick": "Peat Brick",
+
 
   "block.topsoil.iron_cluster": "Iron Cluster",
   "block.topsoil.peat_cluster": "Peat Cluster",
