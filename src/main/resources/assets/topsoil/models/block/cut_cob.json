@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "topsoil:block/polished_cob",
+    "side": "topsoil:block/cut_cob"
+  }
+}

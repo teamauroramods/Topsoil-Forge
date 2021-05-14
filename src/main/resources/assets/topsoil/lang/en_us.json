@@ -57,6 +57,11 @@
 
   "block.topsoil.cob": "Cob",
   "block.topsoil.polished_cob": "Polished Cob",
+  "block.topsoil.smooth_cob": "Smooth Cob",
+  "block.topsoil.cob_bricks": "Cob Bricks",
+  "block.topsoil.cob_tiles": "Cob Tiles",
+  "block.topsoil.cut_cob": "Cut Cob",
+  "block.topsoil.chiseled_cob_tiles": "Chiseled Cob Tiles",
 
 
   "block.topsoil.iron_cluster": "Iron Cluster",
