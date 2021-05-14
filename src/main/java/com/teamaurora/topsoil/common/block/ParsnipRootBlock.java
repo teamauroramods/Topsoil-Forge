@@ -95,7 +95,7 @@ public class ParsnipRootBlock extends RootBlock implements IGrowable {
 
         if (!flag && player.getHeldItem(handIn).getItem() == Items.BONE_MEAL) {
             return ActionResultType.PASS;
-        } else if (i > 1) {
+        } else if (i >= 1) {
             spawnAsEntity(worldIn, pos, new ItemStack(TopsoilItems.PARSNIP.get(), i));
             worldIn.playSound(null, pos, SoundEvents.ITEM_SWEET_BERRIES_PICK_FROM_BUSH, SoundCategory.BLOCKS, 1.0F, 0.8F + worldIn.rand.nextFloat() * 0.4F);
             worldIn.setBlockState(pos, state.with(AGE, 0), 2);
