@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "topsoil:block/parsnip_straw_bale_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "topsoil:block/parsnip_straw_bale"
+    },
+    "axis=z": {
+      "model": "topsoil:block/parsnip_straw_bale_horizontal",
+      "x": 90
+    }
+  }
+}

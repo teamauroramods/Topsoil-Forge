@@ -64,8 +64,10 @@
 
 
   "block.topsoil.parsnip_roots": "Parsnip Roots",
+  "block.topsoil.parsnip_straw_bale": "Parsnip Straw Bale",
   "item.topsoil.parsnip": "Parsnip",
   "item.topsoil.hearty_soup": "Hearty Soup",
+  "item.topsoil.parsnip_straw": "Parsnip Straw",
 
   "block.topsoil.cantaloupe_vines": "Cantaloupe Vines",
   "block.topsoil.cantaloupe_stem": "Cantaloupe Stem",
