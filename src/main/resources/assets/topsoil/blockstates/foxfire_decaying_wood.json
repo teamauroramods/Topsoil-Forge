@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "topsoil:block/foxfire_decaying_wood"
+    },
+    "axis=z": {
+      "model": "topsoil:block/foxfire_decaying_wood",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "topsoil:block/foxfire_decaying_wood",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

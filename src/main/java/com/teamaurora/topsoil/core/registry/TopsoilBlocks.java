@@ -3,11 +3,12 @@ package com.teamaurora.topsoil.core.registry;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsFlowerBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.AbnormalsStairsBlock;
 import com.minecraftabnormals.abnormals_core.common.blocks.VerticalSlabBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.AbnormalsLogBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.StrippedLogBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.StrippedWoodBlock;
+import com.minecraftabnormals.abnormals_core.common.blocks.wood.WoodBlock;
 import com.minecraftabnormals.abnormals_core.core.util.registry.BlockSubRegistryHelper;
-import com.teamaurora.topsoil.common.block.CantaloupeBlock;
-import com.teamaurora.topsoil.common.block.CantaloupeStemBlock;
-import com.teamaurora.topsoil.common.block.ParsnipRootBlock;
-import com.teamaurora.topsoil.common.block.RootBlock;
+import com.teamaurora.topsoil.common.block.*;
 import com.teamaurora.topsoil.core.Topsoil;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
@@ -115,6 +116,18 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> CANTALOUPE_STEM = HELPER.createBlock("cantaloupe_stem", ()->new CantaloupeStemBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN_STEM)), ItemGroup.MISC);
     public static final RegistryObject<Block> SMALL_CANTALOUPE = HELPER.createBlock("small_cantaloupe", ()->new CantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> CANTALOUPE = HELPER.createBlock("cantaloupe", ()->new Block(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
+
+    // Foxfire Shrooms
+    // TODO: make decaying wood block properties
+    public static final RegistryObject<Block> STRIPPED_DECAYING_LOG = HELPER.createBlock("stripped_decaying_log", ()->new StrippedLogBlock(AbstractBlock.Properties.from(Blocks.STRIPPED_OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> STRIPPED_DECAYING_WOOD = HELPER.createBlock("stripped_decaying_wood", ()->new StrippedWoodBlock(AbstractBlock.Properties.from(Blocks.STRIPPED_OAK_WOOD)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> DECAYING_LOG = HELPER.createBlock("decaying_log", ()->new AbnormalsLogBlock(STRIPPED_DECAYING_LOG, AbstractBlock.Properties.from(Blocks.OAK_LOG)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> DECAYING_WOOD = HELPER.createBlock("decaying_wood", ()->new WoodBlock(STRIPPED_DECAYING_WOOD, AbstractBlock.Properties.from(Blocks.OAK_WOOD)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> FOXFIRE_DECAYING_LOG = HELPER.createBlock("foxfire_decaying_log", ()->new ShroomLogBlock(DECAYING_LOG, STRIPPED_DECAYING_LOG, AbstractBlock.Properties.from(Blocks.OAK_LOG).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> FOXFIRE_DECAYING_WOOD = HELPER.createBlock("foxfire_decaying_wood", ()->new ShroomWoodBlock(DECAYING_WOOD, STRIPPED_DECAYING_WOOD, AbstractBlock.Properties.from(Blocks.OAK_WOOD).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
+
+    public static final RegistryObject<Block> GREEN_FOXFIRE_SOIL = HELPER.createBlock("green_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_FOXFIRE_SOIL = HELPER.createBlock("blue_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
 
     // Mallows
     // TODO: custom stew effect

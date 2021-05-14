@@ -87,6 +87,14 @@
   "block.topsoil.cantaloupe": "Cantaloupe",
   "item.topsoil.cantaloupe_slice": "Cantaloupe Slice",
 
+  "block.topsoil.decaying_log": "Decaying Log",
+  "block.topsoil.decaying_wood": "Decaying Wood",
+  "block.topsoil.foxfire_decaying_log": "Foxfire Decaying Log",
+  "block.topsoil.foxfire_decaying_wood": "Foxfire Decaying Wood",
+
+  "block.topsoil.green_foxfire_soil": "Green Foxfire Soil",
+  "block.topsoil.blue_foxfire_soil": "Blue Foxfire Soil",
+
   "block.topsoil.red_mallow": "Red Mallow",
   "block.topsoil.white_mallow": "White Mallow",
   "block.topsoil.mallow_bush": "Mallow Bush"

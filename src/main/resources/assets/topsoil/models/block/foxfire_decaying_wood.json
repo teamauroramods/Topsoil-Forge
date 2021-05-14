@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "topsoil:block/foxfire_decaying_log",
+    "side": "topsoil:block/foxfire_decaying_log"
+  }
+}
