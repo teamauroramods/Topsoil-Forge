@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "half=upper": {
       "model": "topsoil:block/cantaloupe_stage_0"
+    },
+    "half=lower": {
+      "model": "topsoil:block/cantaloupe_stage_0_bottom"
     }
   }
 }
