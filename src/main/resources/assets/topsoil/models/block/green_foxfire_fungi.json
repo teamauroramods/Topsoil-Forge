@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "topsoil:block/green_foxfire_fungi"
+  }
+}

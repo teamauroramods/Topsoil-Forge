@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "topsoil:block/blue_foxfire_wall_fungi"
+    },
+    "facing=west": {
+      "model": "topsoil:block/blue_foxfire_wall_fungi",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "topsoil:block/blue_foxfire_wall_fungi",
+      "y": 180
+    },
+    "facing=east": {
+      "model": "topsoil:block/blue_foxfire_wall_fungi",
+      "y": 270
+    }
+  }
+}

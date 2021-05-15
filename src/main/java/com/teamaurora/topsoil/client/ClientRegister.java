@@ -26,5 +26,10 @@ public class ClientRegister {
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.RED_MALLOW.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.WHITE_MALLOW.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(TopsoilBlocks.MALLOW_BUSH.get(), RenderType.getCutout());
+
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.BLUE_FOXFIRE_FUNGI.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.GREEN_FOXFIRE_FUNGI.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.BLUE_FOXFIRE_WALL_FUNGI.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(TopsoilBlocks.GREEN_FOXFIRE_WALL_FUNGI.get(), RenderType.getCutout());
     }
 }

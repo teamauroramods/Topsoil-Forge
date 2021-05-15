@@ -1,0 +1,6 @@
+{
+  "parent": "topsoil:block/wall_fungi",
+  "textures": {
+    "shroom": "topsoil:block/blue_foxfire_wall_fungi"
+  }
+}

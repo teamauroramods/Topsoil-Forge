@@ -129,6 +129,13 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> GREEN_FOXFIRE_SOIL = HELPER.createBlock("green_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> BLUE_FOXFIRE_SOIL = HELPER.createBlock("blue_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> BLUE_FOXFIRE_FUNGI = HELPER.createBlock("blue_foxfire_fungi", ()->new MushroomBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GREEN_FOXFIRE_FUNGI = HELPER.createBlock("green_foxfire_fungi", ()->new MushroomBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> BLUE_FOXFIRE_WALL_FUNGI = HELPER.createBlock("blue_foxfire_wall_fungi", ()->new WallFungiBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GREEN_FOXFIRE_WALL_FUNGI = HELPER.createBlock("green_foxfire_wall_fungi", ()->new WallFungiBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+
+
+
     // Mallows
     // TODO: custom stew effect
     public static final RegistryObject<Block> RED_MALLOW = HELPER.createBlock("red_mallow", ()->new AbnormalsFlowerBlock(() -> Effects.HASTE, 0, AbstractBlock.Properties.from(Blocks.POPPY)), ItemGroup.DECORATIONS);
