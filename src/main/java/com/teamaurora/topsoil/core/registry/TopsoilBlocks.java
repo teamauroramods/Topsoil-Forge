@@ -129,8 +129,10 @@ public class TopsoilBlocks {
     public static final RegistryObject<Block> GREEN_FOXFIRE_SOIL = HELPER.createBlock("green_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
     public static final RegistryObject<Block> BLUE_FOXFIRE_SOIL = HELPER.createBlock("blue_foxfire_soil", ()->new Block(AbstractBlock.Properties.from(Blocks.DIRT).setLightLevel((state)->(3))), ItemGroup.BUILDING_BLOCKS);
 
-    public static final RegistryObject<Block> BLUE_FOXFIRE_FUNGI = HELPER.createBlock("blue_foxfire_fungi", ()->new MushroomBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
-    public static final RegistryObject<Block> GREEN_FOXFIRE_FUNGI = HELPER.createBlock("green_foxfire_fungi", ()->new MushroomBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> TALL_BLUE_FOXFIRE_FUNGI = HELPER.createBlock("tall_blue_foxfire_fungi", ()->new LargeFoxfireBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> TALL_GREEN_FOXFIRE_FUNGI = HELPER.createBlock("tall_green_foxfire_fungi", ()->new LargeFoxfireBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> BLUE_FOXFIRE_FUNGI = HELPER.createBlock("blue_foxfire_fungi", ()->new FoxfireBlock(TALL_BLUE_FOXFIRE_FUNGI, AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> GREEN_FOXFIRE_FUNGI = HELPER.createBlock("green_foxfire_fungi", ()->new FoxfireBlock(TALL_GREEN_FOXFIRE_FUNGI, AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> BLUE_FOXFIRE_WALL_FUNGI = HELPER.createBlock("blue_foxfire_wall_fungi", ()->new WallFungiBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> GREEN_FOXFIRE_WALL_FUNGI = HELPER.createBlock("green_foxfire_wall_fungi", ()->new WallFungiBlock(AbstractBlock.Properties.from(Blocks.BROWN_MUSHROOM).setLightLevel((state)->(6))), ItemGroup.DECORATIONS);
 

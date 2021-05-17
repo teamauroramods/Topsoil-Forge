@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "topsoil:block/tall_green_foxfire_fungi_bottom"
+  }
+}

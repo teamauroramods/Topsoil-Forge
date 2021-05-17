@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "topsoil:block/tall_green_foxfire_fungi_bottom"
+    },
+    "half=upper": {
+      "model": "topsoil:block/tall_green_foxfire_fungi_top"
+    }
+  }
+}
