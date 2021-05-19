@@ -114,8 +114,9 @@ public class TopsoilBlocks {
     // Cantaloupes
     public static final RegistryObject<Block> CANTALOUPE_VINES = HELPER.createBlock("cantaloupe_vines", ()->new RootBlock(false, Properties.ROOTS), ItemGroup.DECORATIONS);
     public static final RegistryObject<Block> CANTALOUPE_STEM = HELPER.createBlock("cantaloupe_stem", ()->new CantaloupeStemBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN_STEM)), ItemGroup.MISC);
-    public static final RegistryObject<Block> SMALL_CANTALOUPE = HELPER.createBlock("small_cantaloupe", ()->new CantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
-    public static final RegistryObject<Block> CANTALOUPE = HELPER.createBlock("cantaloupe", ()->new Block(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> SMALL_CANTALOUPE = HELPER.createBlock("small_cantaloupe", ()->new SmallCantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> CARVED_CANTALOUPE = HELPER.createBlock("carved_cantaloupe", ()->new CarvedCantaloupeBlock(AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
+    public static final RegistryObject<Block> CANTALOUPE = HELPER.createBlock("cantaloupe", ()->new CantaloupeBlock(CARVED_CANTALOUPE, AbstractBlock.Properties.from(Blocks.PUMPKIN)), ItemGroup.DECORATIONS);
 
     // Foxfire Shrooms
     // TODO: make decaying wood block properties

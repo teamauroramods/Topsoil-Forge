@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "topsoil:block/carved_cantaloupe_0"
+    },
+    "bites=1": {
+      "model": "topsoil:block/carved_cantaloupe_1"
+    },
+    "bites=2": {
+      "model": "topsoil:block/carved_cantaloupe_2"
+    },
+    "bites=3": {
+      "model": "topsoil:block/carved_cantaloupe_3"
+    },
+    "bites=4": {
+      "model": "topsoil:block/carved_cantaloupe_4"
+    },
+    "bites=5": {
+      "model": "topsoil:block/carved_cantaloupe_5"
+    },
+    "bites=6": {
+      "model": "topsoil:block/carved_cantaloupe_6"
+    },
+    "bites=7": {
+      "model": "topsoil:block/carved_cantaloupe_7"
+    }
+  }
+}

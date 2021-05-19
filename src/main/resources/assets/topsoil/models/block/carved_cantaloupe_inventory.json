@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "topsoil:block/carved_cantaloupe_top",
+    "side": "topsoil:block/carved_cantaloupe_side"
+  }
+}
