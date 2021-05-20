@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "topsoil:cantaloupe_stem"
+    "topsoil:cantaloupe_stem",
+    "topsoil:parsnip_straw_vines"
   ]
 }

@@ -110,6 +110,7 @@ public class TopsoilBlocks {
     // Parsnips
     public static final RegistryObject<Block> PARSNIP_ROOTS = HELPER.createBlockNoItem("parsnip_roots", ()->new ParsnipRootBlock(Properties.PARSNIP_ROOTS));
     public static final RegistryObject<Block> PARSNIP_STRAW_BALE = HELPER.createBlock("parsnip_straw_bale", ()->new HayBlock(AbstractBlock.Properties.from(Blocks.HAY_BLOCK)), ItemGroup.BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PARSNIP_STRAW_VINES = HELPER.createBlock("parsnip_straw_vines", ()->new VineBlock(AbstractBlock.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0.2F).sound(SoundType.VINE)), ItemGroup.DECORATIONS);
 
     // Cantaloupes
     public static final RegistryObject<Block> CANTALOUPE_VINES = HELPER.createBlock("cantaloupe_vines", ()->new RootBlock(false, Properties.ROOTS), ItemGroup.DECORATIONS);
